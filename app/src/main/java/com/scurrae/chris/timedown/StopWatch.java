@@ -28,7 +28,7 @@ public class StopWatch extends AppCompatActivity {
         chronometer = (Chronometer)findViewById(R.id.ed2);
 
         mTextField = (TextView)findViewById(R.id.tx2);
-        mTextField.setText(R.string.app_name);
+        mTextField.setText("Stopwatch");
         button = (Button)findViewById(R.id.but2);
         button.setText("Start timer");
         button.setOnClickListener(new View.OnClickListener() {

@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editText = (EditText)findViewById(R.id.ed);
-        CharSequence ch = "Enter time in seconds.";
+        CharSequence ch = "Enter time in milliseconds.";
         editText.setHint(ch);
         mTextField = (TextView)findViewById(R.id.tx);
-        mTextField.setText(R.string.app_name);
+        mTextField.setText("Time will appear here.");
         button = (Button)findViewById(R.id.but);
         if(editText.getText().toString() != null ) {
             button.setOnClickListener(new View.OnClickListener() {

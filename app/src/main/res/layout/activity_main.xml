@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.scurrae.chris.timedown.MainActivity">
+    tools:context="com.scurrae.chris.timedown.MainActivity"
+    android:background="#000">
 
 
     <EditText
@@ -15,6 +16,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/ed"
         android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="168dp" />
@@ -25,6 +27,7 @@
         android:id="@+id/tx"
         android:layout_marginTop="78dp"
         android:layout_alignParentTop="true"
+        android:textColor="@android:color/white"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <Button
@@ -32,6 +35,8 @@
         android:layout_height="wrap_content"
         android:text="Timer Start"
         android:id="@+id/but"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
